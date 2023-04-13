@@ -73,3 +73,4 @@ update details SET AGE="25" WHERE ID=9;
 update details SET AGE="22" WHERE ID=10;
 update details SET AGE="21" WHERE ID=11;
 alter table details ADD CONSTRAINT TEST CHECK (AGE>=20);
+alter table details DROP CHECK TEST;
